@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)temperatureSegmentedControl:(id)sender;
+
+@property (strong, nonatomic) IBOutlet UIView *temperatureTextField;
+@property (strong, nonatomic) IBOutlet UIView *temperatureResultLabel;
 
 @end
 
